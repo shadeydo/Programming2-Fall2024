@@ -1,4 +1,4 @@
-# Hello beings
+
 <details>
 <summary> info </summary>
 Name: Zaphrod Beeblebrox  
