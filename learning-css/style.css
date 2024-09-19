@@ -1,0 +1,12 @@
+* {
+    background-color: black;
+    color: lime;
+    font-family: monospace;
+    text-shadow: lime 0 0 6px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: lime 0 0 4px;
+    border: green dotted 2px;
+}
