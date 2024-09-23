@@ -10,3 +10,16 @@ h1 {
     text-shadow: lime 0 0 4px;
     border: green dotted 2px;
 }
+
+.alert {
+    color:red;
+    font-weight: 400;
+    font-size: large;
+    text-shadow: none;
+    text-shadow: red 0 0 6px;
+}
+
+#aqua {
+    color: #009cff;
+    text-shadow: aqua 0 0 6px;
+}
