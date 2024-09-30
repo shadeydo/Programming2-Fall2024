@@ -1,0 +1,13 @@
+button, p, input {
+    font-size: 28px;
+    font: Helvetica, "Times New Roman", sans-serif;
+}
+
+.black {
+    background-color: black;
+    color: white
+}
+
+.yellow {
+    background-color: yellow
+}
