@@ -1,0 +1,26 @@
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+div p {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    background-color: yellow;
+}
+
+.normal {
+    all: initial;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

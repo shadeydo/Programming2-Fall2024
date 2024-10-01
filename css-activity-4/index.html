@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chaining Selectors</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" />
+    </head>
+    <body>
+        <h2>Part 1</h2>
+        <!-- Use the classes BELOW this line -->
+            <img
+                class="avatar proportioned"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHMrxwawAtrBYiJ201UzKNHWBKfJ7StfcXbQ&s" />
+            <img
+                class="avatar distorted"
+                src="https://media.licdn.com/dms/image/v2/C4E0BAQHzpL6hdT9h4w/company-logo_200_200/company-logo_200_200/0/1630624784022/francis_w_parker_school_logo?e=2147483647&v=beta&t=DfUnkOhQ3PE6H_982y_eJFwDPShlReCCnDiajj3QrAI" />
+        <!-- Use the classes ABOVE this line -->
+        <div>
+            <img
+                class="original proportioned"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHMrxwawAtrBYiJ201UzKNHWBKfJ7StfcXbQ&s" />
+            <img
+                class="original distorted"
+                src="https://media.licdn.com/dms/image/v2/C4E0BAQHzpL6hdT9h4w/company-logo_200_200/company-logo_200_200/0/1630624784022/francis_w_parker_school_logo?e=2147483647&v=beta&t=DfUnkOhQ3PE6H_982y_eJFwDPShlReCCnDiajj3QrAI"
+                alt="Man with surprised expression" />
+        </div>
+
+        <h2>Part 2</h2>
+
+        <div class="container">
+            <p class="text">This should be styled.</p>
+        </div>
+        <p class="text">This should be unstyled.</p>
+        <p class="text">This should be unstyled.</p>
+        <div class="container">
+            <p class="text">This should be styled.</p>
+            <p class="text">This should be styled.</p>
+        </div>
+        
+        <div class="flex-container">
+            <div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHMrxwawAtrBYiJ201UzKNHWBKfJ7StfcXbQ&s" class="card-img-top" alt="...">
+                    <div class="card-body avatar proportioned">
+                        <h5 class="card-title">Parker</h5>
+                        <p class="card-text normal">the colonel is cool</p>
+                        <br>
+                        <a href="../learning-css/index.html" class="btn btn-primary">Info</a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card text-center">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="true" href="#">Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../recipe-book/index.html">To Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Or Else!!!</a>
+                        </li>
+                    </ul>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Donate Today:</h5>
+                        <p class="card-text normal">every donation goes directly to me :)</p>
+                        <br>
+                        <a href="#" class="btn btn-primary">Donate</a>
+                    </div>
+                </div>
+            </div>
+        <br>
+        <br>
+    </body>
+</html>
