@@ -1,0 +1,40 @@
+body {
+    background-image: repeating-linear-gradient(315deg, #EEE0E0ff 90%, #073AFF00 100%);
+    color: #563027;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+ul, li {
+    margin: 8px 0;
+    background-color: #fff3eb;
+    
+    
+}
+
+ol,li {
+  background-color: #fff3eb;
+}
+
+p {
+    background-color: #fff3eb;
+    margin: 4px;
+}
+
+
+div ,.description,.ingredients,.steps{
+    display: block;
+    padding: 8px;
+    background: #fff3eb;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(154, 73, 19, 0.18);
+    margin: 10px;
+}
+
+h3 {
+    margin: 4px;
+    background-color: #fff3eb;
+    color: #ff8686;
+}
