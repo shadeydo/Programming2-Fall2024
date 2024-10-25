@@ -5,7 +5,7 @@ you'll learn about it later. */
 body {
   margin: 0;
   background: #eee;
-  font-family: 'Gill Sans', Helvetica, sans-serif;
+  font-family: "Gill Sans", Helvetica, sans-serif;
 }
 
 .header {
@@ -56,8 +56,6 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  flex-shrink: 1;
-  flex-grow: 1;
   gap: 16px;
   padding: 0;
   white-space: nowrap;
@@ -67,6 +65,8 @@ li {
   border-radius: 8px;
   background-color: #dcffdc;
   padding: 4px 8px;
+  flex-shrink: 1;
+  flex-basis: 20px;
 }
 
 #left,
@@ -74,4 +74,17 @@ li {
   display: flex;
   gap: 16px;
   align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  align-content: center;
 }
