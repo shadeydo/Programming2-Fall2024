@@ -1,0 +1,16 @@
+.item {
+	height: 50px;
+	width: 50px;
+	background-color: green;
+	border: blue 3px solid;
+	text-align: center;
+	margin: 10px;
+}
+
+.flex-container {
+	border: red 3px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    
+}
