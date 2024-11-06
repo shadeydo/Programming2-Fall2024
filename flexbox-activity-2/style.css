@@ -1,15 +1,22 @@
 /* this is some magical font-importing.  
 you'll learn about it later. */
 @import url("https://fonts.googleapis.com/css2?family=Danfo:ELSH@22.6&display=swap");
+/*
+
+* {
+  border:solid red 1px;
+}
+*/
 
 body {
   margin: 0;
-  background: #eee;
+  background: #ffffff;
   font-family: "Gill Sans", Helvetica, sans-serif;
+  height: 100vh;
 }
 
 .header {
-  background: white;
+  background: #fffee2;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -17,6 +24,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 8px;
+  flex-wrap: wrap;
 }
 
 #profile {
@@ -57,6 +65,7 @@ ul {
   list-style-type: none;
   display: flex;
   gap: 16px;
+
   padding: 0;
   white-space: nowrap;
 }
@@ -80,11 +89,187 @@ li {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  align-items: stretch;
+  gap: 10px;
+  height: 80vh;
+  z-index: 0;
 }
 
 .gallery {
   display: flex;
   justify-content: space-between;
-  width: 60%;
   align-content: center;
+  flex-grow: 1;
+  gap: 5px;
+  overflow-y: scroll;
+  padding: 4px;
+  border: solid 3px #dbdbdb;
+  border-radius: 12px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  gap: 5px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-basis: 200px;
+  flex-grow: 1;
+
+  background-color: #dcffdc;
+  border-radius: 8px;
+  border: 1px solid #6bac6b;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.label {
+  color: #6bac6b;
+  padding: 8px;
+  flex-grow: 1;
+  margin: 5px;
+}
+
+.galleryimg {
+  max-width: 90%;
+  margin: 10px;
+  height: auto;
+  flex-shrink: 1;
+  flex-grow: 4;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 4px;
+  border: solid 3px #dbdbdb;
+  border-radius: 12px;
+}
+
+.descimg {
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 100%;
+  height: fit-content;
+  border-radius: 8px;
+}
+
+h2 {
+  display: inline;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.desctext {
+  display: inline;
+  flex-grow: 3;
+  width: 90%;
+}
+
+#timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  align-items: center;
+  margin: 40px;
+}
+
+.card {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #dcffdc;
+  border-radius: 20px;
+  border: 1px solid #6bac6b;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.timelineimg {
+  border-radius: 8px;
+}
+
+.arrow {
+  flex-grow: 3;
+}
+
+.popup {
+  display: flex;
+  flex-grow:1;
+  flex-direction: column;
+  position: fixed;
+  padding: 20px;
+  width: 60%;
+  left: 20vw;
+  top: 25vh;
+  background: #ff3a3a;
+  z-index: 1;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 1);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  gap:10px;
+}
+
+.popupdesc {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-grow: 2;
+  gap: 10px;
+}
+
+.headers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.warning {
+  margin: 8px;
+  padding: 0;
+}
+
+.popupsub {
+  margin: 8px;
+}
+
+.virus {
+  flex: 1 1 50px;
+  background-color: lime;
+  color: black;
+  font-size: large;
+  font-weight: 800;
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+.virus:hover {
+  flex: 1 1 50px;
+  background-color: #a6ffa6;
+  color: black;
+  border-radius: 0;
+  border: 1px solid black;
+  padding: 100px;
+  font-size: 50px;
+}
+
+.popupinfo {
+  flex: 1 1 50px;
+  display: inline;
 }
