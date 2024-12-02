@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Madlib</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div>
+            <h1>Shadlib</h1>
+            <p>Fill out the fields below and click "Generate" to create madlib!</p>
+        </div>
+        <div>
+            <label for="a1input"> Adjective: </label>
+            <input type="text" id="a1input" placeholder="ex.) green..." />
+
+            <label for="n1input"> Noun: </label>
+            <input type="text" id="n1input" placeholder="ex.) printer..." />
+
+            <label for="person1input"> Person: </label>
+            <input type="text" id="person1input" placeholder="ex.) Gordon Ramsay..." />
+
+            <label for="n2input"> Noun: </label>
+            <input type="text" id="n2input" placeholder="ex.) printer..." />
+
+            <label for="n3input"> Noun: </label>
+            <input type="text" id="n3input" placeholder="ex.) printer..." />
+
+            <label for="n4input"> Noun: </label>
+            <input type="text" id="n4input" placeholder="ex.) printer..." />
+
+            <label for="a2input"> Adjective: </label>
+            <input type="text" id="a2input" placeholder="ex.) green..." />
+
+            <label for="a3input"> Adjective: </label>
+            <input type="text" id="a3input" placeholder="ex.) green..." />
+
+            <label for="a4input"> Adjective: </label>
+            <input type="text" id="a4input" placeholder="ex.) green..." />
+
+            <label for="v1input"> Verb: </label>
+            <input type="text" id="v1input" placeholder="ex.) run..." />
+
+            <label for="v2input"> Verb: </label>
+            <input type="text" id="v2input" placeholder="ex.) run..." />
+
+            <label for="v3input"> Verb: </label>
+            <input type="text" id="v3input" placeholder="ex.) run..." />
+
+            <button onclick="generate()">Generate</button>
+        </div>
+        <div>
+            <h2>Shadlib:</h2>
+            <p>
+                in addition to my true love, on 4th day of christmas <span id="person1"> </span> gave to me: a
+                <span id="a1"> </span> <span id="n1"> </span>, a <span id="a2"> </span> <span id="n2"> </span>, a
+                <span id="a3"> </span> <span id="n3"> </span>, and a <span id="a4"> </span> <span id="n4"> </span>. In
+                return, I will <span id="v1"> </span>, <span id="v2"> </span>, and <span id="v3"> </span> for them!
+            </p>
+        </div>
+    </body>
+</html>
