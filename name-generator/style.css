@@ -1,0 +1,24 @@
+* {
+    font-family: helvetica;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+button {
+    padding: 8px;
+    border-radius: 12px;
+    background-color: white;
+    border: 2px solid #48cc52;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: #48cc52;
+    color: white;
+}

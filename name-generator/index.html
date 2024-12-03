@@ -4,26 +4,37 @@
         <meta charset="UTF-8" />
         <title>Title</title>
         <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <label for="eye">Eye color:</label>
-        <select name="Eye color" id="eye">
-            <option value="Brown">Brown</option>
-            <option value="Blue">Blue</option>
-            <option value="Green">Green</option>
-            <option value="Gray">Gray</option>
-            <option value="Hazel">Hazel</option>
-            <option value="Red">Red</option>
-        </select>
-        <label for="numEye">Number of eyes:</label>
-        <input id="numEye" type="number" min="0" max="3" />
-        <label for="nincompoop">Are you a nincompoop?</label>
-        <select name="Nincompoop" id="nincompoop">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-        </select>
-        <button onclick="generate()" id="generate">Generate</button>
-        <br />
-        <span id="response"></span>
+        <div class="top">
+            <div class="options">
+                <div class=eyecolor>
+                <label for="eye">Eye color:</label>
+                <select name="Eye color" id="eye">
+                    <option value="Brown">Brown</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                    <option value="Gray">Gray</option>
+                    <option value="Hazel">Hazel</option>
+                    <option value="Red">Red</option>
+                </select>
+                </div>
+                <div class=numeye>
+                <label for="numEye">Number of eyes:</label>
+                <input id="numEye" type="number" min="0" max="3" />
+                </div>
+                <div class=nincompoop>
+                <label for="nincompoop">Are you a nincompoop?</label>
+                <select name="Nincompoop" id="nincompoop">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                </div>
+            </div>
+            <button onclick="generate()" id="generate">Generate</button>
+            <br />
+        </div>
+        <div id="response"></div>
     </body>
 </html>
