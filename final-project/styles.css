@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Roboto+Slab:wght@100..900&display=swap");
+
+body {
+    font-family: "Roboto Slab";
+    background: rgb(229, 255, 234);
+    background: linear-gradient(180deg, rgba(229, 255, 234, 1) 0%, rgba(131, 134, 171, 1) 100%);
+    height: 110vh;
+}
+
+#loginpage {
+    background: white;
+}
+
+h1 {
+    font-family: "Jersey 15";
+    margin: 0 0 0 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #76cdc4;
+    padding: 6px;
+    border-radius: 12px;
+    color: white;
+    text-shadow: 2px 2px 3px #101226;
+    margin: 0 0 100px 0;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.18);
+    border: solid 4px rgba(255, 255, 255, 0.16);
+}
+
+.centertext {
+    text-align: center;
+    margin: 20px;
+}
+
+.login {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    background-color: #76cdc4;
+    padding: 30px;
+    border: solid 4px rgba(255, 255, 255, 0.16);
+    border-radius: 12px;
+    width: fit-content;
+    color: white;
+    text-shadow: 2px 2px 3px #101226;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.18);
+}
+
+#username {
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 0 0 4px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.48);
+}
+
+#password {
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 0 0 4px;
+    font-family: "Roboto Slab";
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.48);
+}
+
+button {
+    padding: 10px 16px;
+    border-radius: 10px;
+    margin: 0;
+    border: solid 4px #217ea3;
+    background-color: #217ea3;
+    color: white;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.48);
+}
+
+button:hover {
+    background-color: white;
+    color: #217ea3;
+}
+
+#alertbox {
+    background-color: rgba(255, 0, 0, 0.2);
+    border: solid rgba(255, 0, 0, 0.4) 3px;
+    border-radius: 6px;
+    width: 400px;
+    display: none;
+    margin: 20px auto;
+}
+
+#pyramid {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    height: fit-content;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+}
+.stage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 12px;
+    padding: 20px;
+    border: solid 4px rgba(255, 255, 255, 0.16);
+    color: #ffffff;
+    text-shadow: 2px 2px 3px #101226;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.18);
+}
+
+#stage_1 {
+    background-color: #74cdc4;
+}
+
+#stage_2 {
+    background-color: #43a6b6;
+}
+
+#stage_3 {
+    background-color: #227ea3;
+}
+
+#stage_4 {
+    background-color: #215689;
+}
+
+#stage_5 {
+    background-color: #292e66;
+}

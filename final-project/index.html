@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Hamstrr. Login</title>
+        <script src="scripts.js"></script>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="header">
+            <h1>Hamstrr.</h1>
+        </div>
+        <p class="centertext">
+            Welcome to the Hamstrr. company portal! Please enter your username and department-issued password.
+        </p>
+        <div class="login">
+            <div>
+                <label for="username"> Username: </label>
+                <input type="text" id="username" placeholder="e.g. arnold" />
+            </div>
+            <div>
+                <label for="password"> Password: </label>
+                <input type="password" id="password" placeholder="e.g. arnoldlovescake91" />
+            </div>
+
+            <button onclick="login()" id="login">Login</button>
+        </div>
+        <div id="alertbox">
+            <ul id="alert"></ul>
+        </div>
+    </body>
+</html>
